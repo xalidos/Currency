@@ -7,7 +7,7 @@ namespace WebApplication17.Models
 {
     public class Personal2
     {
-        public int yash { get; set; }
-        public string name { get; set; }
+        public int Age { get; set; }
+        public string Name { get; set; }
     }
 }

@@ -13,13 +13,13 @@ namespace WebApplication17
         {
             new Personal2
             {
-                yash=27,
-                name="Murad"
+                Age=27,
+                Name="Murad"
             },
             new Personal2
             {
-                yash=30,
-                name="Xaliq"
+                Age=30,
+                Name="Xaliq"
                 
             }
             

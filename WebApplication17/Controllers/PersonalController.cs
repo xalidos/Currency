@@ -20,7 +20,7 @@ namespace WebApplication17.Controllers
         [HttpGet("GetName")]
         public Personal2 personal2(string Name)
         {
-            Personal2 personal = PersonalList.pers.Where(o => o.name == Name).SingleOrDefault();
+            Personal2 personal = PersonalList.pers.Where(o => o.Name == Name).SingleOrDefault();
             return personal;
         }
 
